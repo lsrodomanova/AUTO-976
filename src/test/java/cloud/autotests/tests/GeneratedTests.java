@@ -33,7 +33,7 @@ public class GeneratedTests extends TestBase {
 
        step("Заполнить форму обратной связи", () -> {
             $("#form-name").setValue(fullName);
-            $("#form-phone").setValue(userNumber);
+            $("#form-phone").setValue("000000000");
         });
 
         step("Отправить форму", () -> {
