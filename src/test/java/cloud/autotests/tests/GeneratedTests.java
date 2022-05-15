@@ -15,6 +15,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class GeneratedTests extends TestBase {
 
+    ClassLoader cl = GeneratedTests.class.getClassLoader();
+
     String url="https://berizaryad.ru/";
     String expectedTitle = "+7 800 555 04 96";
     String userNumber="8(000) 000-0000";
