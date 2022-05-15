@@ -17,11 +17,12 @@ public class GeneratedTests extends TestBase {
 
     String url="https://berizaryad.ru/";
     String expectedTitle = "+7 800 555 04 96";
+    String userNumber="8(000) 000-0000";
 
     Faker faker = new Faker();
     String fullName=faker.name().fullName(),
-            userEmail=faker.internet().emailAddress(),
-            userNumber=faker.numerify("##########");
+            userEmail=faker.internet().emailAddress();
+
 
     @Test
     @Description("Callback")
@@ -33,7 +34,7 @@ public class GeneratedTests extends TestBase {
 
        step("Заполнить форму обратной связи", () -> {
             $("#form-name").setValue(fullName);
-            $("#form-phone").setValue("000000000");
+            $("#form-phone").setValue(userNumber);
         });
 
         step("Отправить форму", () -> {
