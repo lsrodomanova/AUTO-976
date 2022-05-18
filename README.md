@@ -99,7 +99,7 @@ gradle clean test
 ## <img width="4%" title="Telegram" src="src/test/resources/images/logo/Telegram.svg"> Отчет в Telegram
 
 <p align="center">
-  <img src="images/screens/telegram2.png" alt="job" width="400">
+  <img src="src/test/resources/images/screens/Telegram.png" alt="job" width="400">
 </p>
 
 ## Видео прохождения тестов
