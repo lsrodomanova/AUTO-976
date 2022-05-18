@@ -77,11 +77,7 @@ gradle clean test
 </p>
 
 <p align="center">
-  <img src="src/test/resources/images/screens/Allure1.png" alt="job" width="800">
-</p>
-
-<p align="center">
-  <img src="src/test/resources/images/screens/Allure6.png" alt="job" width="800">
+  <img src="src/test/resources/images/screens/Allure2.png" alt="job" width="800">
 </p>
 
 
