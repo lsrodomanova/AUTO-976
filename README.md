@@ -1,5 +1,5 @@
 ## Проект по автоматизации тестирования сайта berizaryad.ru"
-#### Городской сервис аренды зарядок
+#### Городской сервис аренды зарядок  <img width="10%" title="Zaryad" src="src/test/resources/images/screens/logo.png">
 > <a target="_blank" href="https://berizaryad.ru/">Ссылка на главную страницу сайта</a>
 
 
@@ -66,7 +66,7 @@ gradle clean test
 > <code>REMOTE</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 
 
-### :terminal: Запуск из терминала
+### Запуск из терминала
 ```bash
 gradle clean test
 ```
@@ -84,8 +84,8 @@ gradle clean test
   <img src="src/test/resources/images/screens/Allure6.png" alt="job" width="800">
 </p>
 
-### AllureTestOps отчет
-### <img width="4%" title="Allure TestOPS" src="src/test/resources/images/logo/Allure_Report.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/11706)
+
+### <img width="4%" title="Allure TestOPS" src="src/test/resources/images/logo/Allure_Report.svg"> Интеграция с Allure TestOps
 <p align="center">
   <img src="src/test/resources/images/screens/AllureTestOps3.png" alt="job" width="800">
 </p>
