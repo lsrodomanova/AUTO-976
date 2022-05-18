@@ -15,7 +15,7 @@
 
 
 ###  Проект реализован с использованием
-IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure TestOps Telegram Jira
+<p align="center">IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure TestOps Telegram Jira</p>
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="src/test/resources/images/logo/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="src/test/resources/images/logo/Java.svg">
