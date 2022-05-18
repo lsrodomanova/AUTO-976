@@ -1,17 +1,17 @@
 ## Проект по автоматизации тестирования сайта berizaryad.ru"
-#### Городской сервис аренды зарядок  <img width="30%" title="Zaryad" src="src/test/resources/images/screens/logo.png">
+#### Городской сервис аренды зарядок  
 > <a target="_blank" href="https://berizaryad.ru/">Ссылка на главную страницу сайта</a>
-
+### <img width="100%" title="Zaryad" src="src/test/resources/images/screens/logo.png">
 
 ###  Содержание:
 
-- [Технологии и инструменты](#techno-технологии-и-инструменты)
-- [Реализованные проверки](#control-Реализованные-проверки)
-- [Сборка в Jenkins](#jenkins-Jenkins-job)
-- [Запуск из терминала](#terminal-Запуск-тестов-из-терминала)
-- [Allure отчет](#report-Allure-отчет)
-- [Отчет в Telegram](#telegram-Уведомление-в-Telegram-при-помощи-бота)
-- [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
+- Технологии и инструменты
+- Реализованные проверки
+- Сборка в Jenkins
+- Запуск из терминала
+- Allure отчет
+- Отчет в Telegram
+- Видео примеры прохождения тестов
 
 
 ###  Проект реализован с использованием
@@ -38,8 +38,8 @@ IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure 
 
 
 ###   Сборка в Jenkins
-### <img width="6%" title="Jenkins" src="src/test/resources/images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/011_AlexGeorgievich_Home_13_v1/)
-*Для запуска сборки необходимо указать значения параметров и нажать кнопку <code><strong>*Собрать с параметрами*</strong></code>.*
+### <img width="6%" title="Jenkins" src="src/test/resources/images/logo/Jenkins.svg"> Запуск тестов в Jenkins
+
 
 <p align="center">
   <img src="src/test/resources/images/screens/Jenkins.png" alt="job" width="800">
