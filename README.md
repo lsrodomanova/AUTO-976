@@ -1,5 +1,5 @@
 ## Проект по автоматизации тестирования сайта berizaryad.ru"
-#### Городской сервис аренды зарядок  <img width="10%" title="Zaryad" src="src/test/resources/images/screens/logo.png">
+#### Городской сервис аренды зарядок  <img width="30%" title="Zaryad" src="src/test/resources/images/screens/logo.png">
 > <a target="_blank" href="https://berizaryad.ru/">Ссылка на главную страницу сайта</a>
 
 
