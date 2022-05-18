@@ -17,16 +17,16 @@
 ###  Проект реализован с использованием
 IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure TestOps Telegram Jira
 <p align="center">
-<img width="8%" title="IntelliJ IDEA" src="src/test/resources/images/logo/Intelij_IDEA.svg">
-<img width="8%" title="Java" src="src/test/resources/images/logo/Java.svg">
-<img width="8%" title="Selenide" src="src/test/resources/images/logo/Selenide.svg">
-<img width="8%" title="Selenoid" src="src/test/resources/images/logo/Selenoid.svg">
-<img width="8%" title="Allure Report" src="src/test/resources/images/logo/Allure_Report.svg">
+<img width="6%" title="IntelliJ IDEA" src="src/test/resources/images/logo/Intelij_IDEA.svg">
+<img width="6%" title="Java" src="src/test/resources/images/logo/Java.svg">
+<img width="6%" title="Selenide" src="src/test/resources/images/logo/Selenide.svg">
+<img width="6%" title="Selenoid" src="src/test/resources/images/logo/Selenoid.svg">
+<img width="6%" title="Allure Report" src="src/test/resources/images/logo/Allure_Report.svg">
 <img width="8%" title="Gradle" src="src/test/resources/images/logo/Gradle.svg">
-<img width="8%" title="JUnit5" src="src/test/resources/images/logo/JUnit5.svg">
-<img width="8%" title="GitHub" src="src/test/resources/images/logo/GitHub.svg">
-<img width="8%" title="Jenkins" src="src/test/resources/images/logo/Jenkins.svg">
-<img width="8%" title="Telegram" src="src/test/resources/images/logo/Telegram.svg">
+<img width="6%" title="JUnit5" src="src/test/resources/images/logo/JUnit5.svg">
+<img width="6%" title="GitHub" src="src/test/resources/images/logo/GitHub.svg">
+<img width="6%" title="Jenkins" src="src/test/resources/images/logo/Jenkins.svg">
+<img width="6%" title="Telegram" src="src/test/resources/images/logo/Telegram.svg">
 </p>
 
 ###  Список проверок, реализованных в автотестах
@@ -71,7 +71,7 @@ gradle clean test
 gradle clean test
 ```
 
-### <img width="6%" title="Allure" src="src/test/resources/images/logo/Allure_Report.svg"> отчет Allure Report
+### <img width="4%" title="Allure" src="src/test/resources/images/logo/Allure_Report.svg"> Отчет Allure Report
 <p align="center">
   <img src="src/test/resources/images/screens/Allure_main.png" alt="job" width="800">
 </p>
@@ -96,7 +96,7 @@ gradle clean test
 
 
 
-### <img width="8%" title="Telegram" src="src/test/resources/images/logo/Telegram.svg"> Отчет в Telegram
+### <img width="6%" title="Telegram" src="src/test/resources/images/logo/Telegram.svg"> Отчет в Telegram
 
 <p align="center">
   <img src="images/screens/telegram2.png" alt="job" width="400">
