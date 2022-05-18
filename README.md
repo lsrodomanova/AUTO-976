@@ -71,7 +71,7 @@ gradle clean test
 gradle clean test
 ```
 
-### <img width="4%" title="Allure" src="src/test/resources/images/logo/Allure_Report.svg"> Отчет Allure Report
+## <img width="4%" title="Allure" src="src/test/resources/images/logo/Allure_Report.svg"> Отчет Allure Report
 <p align="center">
   <img src="src/test/resources/images/screens/Allure_main.png" alt="job" width="800">
 </p>
@@ -85,7 +85,7 @@ gradle clean test
 </p>
 
 
-### <img width="4%" title="Allure TestOPS" src="src/test/resources/images/logo/Allure_Report.svg"> Интеграция с Allure TestOps
+## <img width="4%" title="Allure TestOPS" src="src/test/resources/images/logo/Allure_Report.svg"> Интеграция с Allure TestOps
 <p align="center">
   <img src="src/test/resources/images/screens/AllureTestOps3.png" alt="job" width="800">
 </p>
@@ -96,13 +96,13 @@ gradle clean test
 
 
 
-### <img width="6%" title="Telegram" src="src/test/resources/images/logo/Telegram.svg"> Отчет в Telegram
+## <img width="4%" title="Telegram" src="src/test/resources/images/logo/Telegram.svg"> Отчет в Telegram
 
 <p align="center">
   <img src="images/screens/telegram2.png" alt="job" width="400">
 </p>
 
-### Видео прохождения тестов
+## Видео прохождения тестов
 
 > К каждому тесту в отчете прилагается видео.
 <p align="center">
