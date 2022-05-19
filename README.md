@@ -27,7 +27,7 @@
 <img width="6%" title="GitHub" src="images/logo/GitHub.svg">
 <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
 <img width="6%" title="Telegram" src="images/logo/Telegram.svg">
-<img width="5%" title="Allure TestOps" src="images/logo/testops.svg">
+<img width="6%" title="Allure TestOps" src="images/logo/testops.svg">
 </p>
 
 ###  Список проверок, реализованных в автотестах
