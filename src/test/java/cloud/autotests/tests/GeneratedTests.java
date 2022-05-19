@@ -5,12 +5,18 @@ import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 
+import static com.codeborne.selenide.Condition.href;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.WebDriverConditions.url;
+import static io.qameta.allure.Allure.link;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.openqa.selenium.By.linkText;
+import static org.openqa.selenium.By.partialLinkText;
 
 
 public class GeneratedTests extends TestBase {
@@ -42,16 +48,20 @@ public class GeneratedTests extends TestBase {
         step("Отправить форму", () -> {
             $(".form").find(byText("Отправить заявку")).click();
         });
+
+        step("Проверить отправку", () -> {
+            $("#form").shouldHave(text("Спасибо"));
+        });
     }
 
     @Test
     @Description("Phone number")
-    @DisplayName("Page title should have header text")
+    @DisplayName("Номер телефона в хэдере страницы")
     void phoneNumber() {
-        step("Open url 'https://berizaryad.ru/'", () ->
+        step("Открыть url 'https://berizaryad.ru/'", () ->
             open(url));
 
-        step("Page title should have phone number '+7 800 555 04 96'", () -> {
+        step("Номер телефона в хэдере страницы '+7 800 555 04 96'", () -> {
             $(".contacts").shouldHave(text(expectedTitle));
         });
     }
@@ -59,25 +69,29 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Google play")
-    @DisplayName("Google play")
+    @DisplayName("Перейти в Google play")
     void findHref() {
-        step("Open url 'https://berizaryad.ru/'", () ->
+        step("Открыть url 'https://berizaryad.ru/'", () ->
                 open(url));
 
-        step("To Google play", () -> {
-            $(".store-block").find(byLinkText("https://play.google.com/store/apps/details?id=ru.berizaryad&hl=ru"));
+        step("Перейти в Google play", () -> {
+            $(byAttribute("src", "./assets/GooglePlay.png")).click();
+        });
+
+        step("Проверить, что открылся Google play", () -> {
+            webdriver().shouldHave(url("https://play.google.com/store/apps/details?id=ru.berizaryad&hl=ru"));
         });
     }
 
 
     @Test
     @Description("Cities")
-    @DisplayName("Cities")
+    @DisplayName("Проверка списка городов")
     void findCity() {
-        step("Open url 'https://berizaryad.ru/'", () ->
+        step("Открыть url 'https://berizaryad.ru/'", () ->
                 open(url));
 
-        step("Find city", () -> {
+        step("Найти города в списке", () -> {
             $(".cities-list").shouldHave(text("Москва"));
             $(".cities-list").shouldHave(text("Санкт-Петербург"));
         });
@@ -85,12 +99,12 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Console check")
-    @DisplayName("Page console log should not have errors")
+    @DisplayName("Проверка ошибок в логах в консоли")
     void consoleShouldNotHaveErrorsTest() {
-        step("Open url 'https://berizaryad.ru/'", () ->
+        step("Открыть url 'https://berizaryad.ru/'", () ->
                 open(url));
 
-        step("Console logs should not contain text 'SEVERE'", () -> {
+        step("В логах консоли не должно быть 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
             String errorText = "SEVERE";
 
