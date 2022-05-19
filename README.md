@@ -15,7 +15,7 @@
 
 
 ###  Проект реализован с использованием
-<p align="center">IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure TestOps Telegram Jira</p>
+<p align="center">IntelliJ IDEA Java Gradle Selenide Selenoid JUnit5 Jenkins Allure Report Allure TestOps Telegram </p>
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="images/logo/Java.svg">
@@ -27,6 +27,7 @@
 <img width="6%" title="GitHub" src="images/logo/GitHub.svg">
 <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
 <img width="6%" title="Telegram" src="images/logo/Telegram.svg">
+<img width="6%" title="Allure TestOps" src="images/logo/testops.svg">
 </p>
 
 ###  Список проверок, реализованных в автотестах
@@ -81,7 +82,7 @@ gradle clean test
 </p>
 
 
-## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_Report.svg"> Интеграция с Allure TestOps
+## <img width="4%" title="Allure TestOPS" src="images/logo/testops.svg"> Интеграция с Allure TestOps
 <p align="center">
   <img src="images/screens/AllureTestOps3.png" alt="job" width="800">
 </p>
